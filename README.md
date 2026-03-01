@@ -8,4 +8,5 @@ A Python script to conveniently export Signal chats!!
 ---
 
 ##### How to use:
-1. 
+1. Download the Signal desktop app
+2. Go to Settings < Chats
