@@ -32,3 +32,5 @@ The power behind Signal is in the encryption. Exporting your data from Signal an
     - An html and txt file will be generated with all your messages. View a clean transcript with attachments in your web browser or plain-text in a text editor
 
 ---
+
+![Demo](demo.png)
