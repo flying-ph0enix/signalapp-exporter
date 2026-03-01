@@ -3,6 +3,7 @@
 A Python script to conveniently export Signal chats!!
 
 **Disclaimer**
+
 The power behind Signal is in the encryption. Exporting your data from Signal and using this script decrypts your messages and attachments, making them potentially vulnerable. Do your due diligence to protect any archives you create.  
 
 ---
