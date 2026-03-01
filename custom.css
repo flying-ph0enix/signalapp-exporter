@@ -1,0 +1,78 @@
+/* Put your custom overrides here. Linked by signal-dump.html */
+
+/* ===== Dark theme overrides for signal-dump.html ===== */
+
+:root{
+  color-scheme: dark;
+}
+
+body{
+  background:#0f1115;
+  color:#e6e6e6;
+}
+
+a{ color:inherit; }
+
+.meta, .muted, .when{
+  color:#a7a7a7 !important;
+}
+
+/* Index + cards */
+.index,
+.msg{
+  background:#141823;
+  border-color:#2a3142 !important;
+  box-shadow:none;
+}
+
+.chat h2{
+  color:#f0f0f0;
+}
+
+/* Message header text */
+.who{
+  color:#f2f2f2;
+}
+
+/* Message body */
+.body{
+  color:#e6e6e6;
+}
+
+/* Reactions */
+.rxn{
+  border-color:#2a3142 !important;
+  background:#101421;
+}
+
+/* Attachments */
+.att img,
+.att video{
+  border-color:#2a3142 !important;
+  background:#0b0d12;
+}
+
+.attcap{
+  color:#d6d6d6;
+}
+
+/* Deleted markers + call bubbles */
+.msg.deleted{
+  background:#121522;
+  border-color:#38405a !important;
+  opacity:0.9;
+}
+
+.msg.call{
+  background:#121a24;
+  border-color:#2a3b52 !important;
+}
+
+/* Missing/unresolved */
+.unresolved{ opacity:0.8; }
+.missing{ color:#ff6b6b !important; }
+
+/* Scrollbar (nice-to-have; may not apply everywhere) */
+*{
+  scrollbar-color:#2a3142 #0f1115;
+}
